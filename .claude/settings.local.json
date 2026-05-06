@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "WebSearch",
+      "Bash(echo \"exit:$?\")",
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(npx create-t3-app@latest *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(docker compose *)",
+      "Bash(grep \"\\\\.env$\" /Users/arjunarjun/Desktop/my/slack-clone/.gitignore)",
+      "Bash(kill %1)",
+      "Bash(kill 7674 7675)",
+      "Bash(docker info *)",
+      "Bash(jobs -l)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pkill -f \"tsx watch server\")",
+      "Bash(npx shadcn@latest add button input label dialog badge separator scroll-area toast)",
+      "Bash(curl -s -X POST http://localhost:3000/api/auth/callback/credentials -H 'Content-Type: application/json' -d '{\"email\":\"arjun@byldd.com\",\"password\":\"String@123\"}' -c /tmp/cookies.txt -b /tmp/cookies.txt -v)",
+      "Bash(npx shadcn@latest add avatar tooltip dropdown-menu)",
+      "Bash(code -r \"/Users/arjunarjun/Desktop/my/slack-clone\" \"/Users/arjunarjun/Desktop/my/slack-clone/_bmad-output/implementation-artifacts/spec-search-overlay.md\")",
+      "Bash(npx playwright *)",
+      "Bash(sed -i '' 's/if \\(!workspaceId\\) test\\\\.skip\\(\\);/if \\(!workspaceId\\) { test.skip\\(\\); return; }/g' tests/e2e/workspace.spec.ts tests/e2e/search.spec.ts tests/e2e/channel.spec.ts tests/e2e/invite.spec.ts)",
+      "Bash(sed -i '' 's/if \\(!token\\) test\\\\.skip\\(\\);/if \\(!token\\) { test.skip\\(\\); return; }/g' tests/e2e/invite.spec.ts)"
+    ]
+  }
+}
